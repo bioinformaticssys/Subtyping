@@ -1,3 +1,7 @@
+
+#  CODE OF Subtuping
+
+
 This is a Matlab separate executable program to identify cancer subtypes based on weighted multi-view low rank representation through integrative omics data fusion. It provide a methodological framework for detecting disease subtypes.
 
 MATLAB Compiler
@@ -20,7 +24,7 @@ NOTE: You will need administrator rights to run MCRInstaller.
 Files to Deploy and Package
 Files to package for Standalone
 ================================
--WMLRR.exe
+-Subtuping.exe
 -MCRInstaller.exe
 -if end users are unable to download the MATLAB Runtime using the above link, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool -This readme file
 
