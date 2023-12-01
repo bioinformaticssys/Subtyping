@@ -23,7 +23,7 @@ NOTE: You will need administrator rights to run MCRInstaller.
 2. Files to Deploy and Package<br>
 Files to package for Standalone <br>
 ================================<br>
--WMLRR.exe<br>
+-LRSFC.exe<br>
 -MCRInstaller.exe <br>
    -if end users are unable to download the MATLAB Runtime using the above link, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool
 -This readme file <br>
