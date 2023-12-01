@@ -31,7 +31,7 @@ Files to package for Standalone <br>
 3. Definitions<br>
 For information on deployment terminology, go to http://www.mathworks.com/help. Select MATLAB Compiler > Getting Started > About Application Deployment > Deployment Product Terms in the MathWorks Documentation Center.<br>
 
-## Instruction of WMLRR<br>
+## Instruction of LRSFC<br>
 
 1. LRSFC.exe is a Matlab separate executable program for the routine of experimental analysis, implementing the LRSFC algorithm.
 
@@ -47,7 +47,7 @@ For information on deployment terminology, go to http://www.mathworks.com/help. 
 
 *  Dependencies: Matlab R2016b <br>
 
-* The WMLRR.exe is running as follows:  
-WMLRR:C:\Users\SYS\Desktop\WMLRR\inputdata C:\Users\SYS\Desktop\WMLRR\outputdata 128 4
+* The LRSFC.exe is running as follows:  
+LRSFC:C:\Users\SYS\Desktop\LRSFC\inputdata C:\Users\SYS\Desktop\LRSFC\outputdata 128 4
 
 
