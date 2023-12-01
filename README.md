@@ -1,5 +1,7 @@
-#  CODE 
-This is a Matlab separate executable program to provide a methodological framework for detecting disease subtypes.
+
+#  CODE OF WMLRR
+This is a Matlab separate executable program to identify cancer subtypes based on LRSFC: Subtyping Cancer based on Low-Rank
+Representation and Similarity Fusion Clustering by Joint Multi-Omics Data. It provide a methodological framework for detecting disease subtypes.
 
 MATLAB Compiler
 
@@ -21,3 +23,31 @@ NOTE: You will need administrator rights to run MCRInstaller.
 2. Files to Deploy and Package<br>
 Files to package for Standalone <br>
 ================================<br>
+-WMLRR.exe<br>
+-MCRInstaller.exe <br>
+   -if end users are unable to download the MATLAB Runtime using the above link, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool
+-This readme file <br>
+
+3. Definitions<br>
+For information on deployment terminology, go to http://www.mathworks.com/help. Select MATLAB Compiler > Getting Started > About Application Deployment > Deployment Product Terms in the MathWorks Documentation Center.<br>
+
+## Instruction of WMLRR<br>
+
+1. LRSFC.exe is a Matlab separate executable program for the routine of experimental analysis, implementing the LRSFC algorithm.
+
+2. LRSFC is going to run by supplying following parameters: <br>
+
+        (1)	input Folder: the directory locating of the omics data as the input data.
+         Its default format is: each row represents features; the each column is a sample of data; the current form of data is : '.mat' . 
+        (2)	output Folder: the directory locating of the cluster assignment as the output data. 
+        (3)	parameter lambda: lambda values is set between  2^-15 and 2^15.      
+        (4) number of clusters: required number of subtypes 
+
+## Demo
+
+*  Dependencies: Matlab R2016b <br>
+
+* The WMLRR.exe is running as follows:  
+WMLRR:C:\Users\SYS\Desktop\WMLRR\inputdata C:\Users\SYS\Desktop\WMLRR\outputdata 128 4
+
+
