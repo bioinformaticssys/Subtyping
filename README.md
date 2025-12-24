@@ -1,4 +1,3 @@
-
 #  CODE OF LRSFC
 This is a Matlab separate executable program to identify cancer subtypes based on LRSFC: Subtyping Cancer based on Low-Rank
 Representation and Similarity Fusion Clustering by Joint Multi-Omics Data. It provide a methodological framework for detecting disease subtypes.
